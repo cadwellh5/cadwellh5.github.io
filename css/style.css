@@ -10,12 +10,12 @@ body{line-height:1.7;color:gray;font-weight:400;font-size:1rem;background:#000}:
     font-weight: 700;
     cursor: pointer;
     font-size: 21px;
-    color: #17a2b8;
+    color: darkcyan ! important;
     border: none;
     text-decoration: none;
 }
 .medium-widget-article__description {
-    color: rgba(230, 230, 230, 0.5);
+    color:  #e9ecef ! important;
 	font-weight: 200;
 	font-size: 16px;
     margin-top: 5px;
@@ -28,7 +28,7 @@ body{line-height:1.7;color:gray;font-weight:400;font-size:1rem;background:#000}:
 }
 
 .medium-widget-article__date {
-    color: darkcyan;
+    color: darkcyan ! important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -46,7 +46,7 @@ body{line-height:1.7;color:gray;font-weight:400;font-size:1rem;background:#000}:
 
 .medium-widget-article__author-name {
     margin: 0px 0px 0px 10px;
-    color: darkcyan;
+    color: darkcyan ! important;
     line-height: 1em;
 }
 
