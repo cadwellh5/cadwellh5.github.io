@@ -237,7 +237,11 @@ body{line-height:1.7;color:gray;font-weight:400;font-size:1rem;background:#000}:
 			.m2.style1 {
 				padding: 4em 15px 4em 15px;
 			}
-
+                         .m2.style1 h1
+			{
+				font-size : 3.8em;
+				
+			}
 				.m2.style1 h2 {
 					font-size: 3em;
 				}
