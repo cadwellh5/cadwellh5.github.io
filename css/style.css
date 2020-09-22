@@ -237,7 +237,7 @@ body{line-height:1.7;color:gray;font-weight:400;font-size:1rem;background:#000}:
 			.m2.style1.content{
 				padding: 4em 15px 4em 15px;
 				min-width : 100%;
-				font-size:smaller;
+				font-size:smaller ! important;
 			}
                 .m2.style1 h1
 			{
@@ -289,7 +289,7 @@ body{line-height:1.7;color:gray;font-weight:400;font-size:1rem;background:#000}:
 			{
 				padding: 4em 15px 4em 15px;
 				min-width : 100%;
-				font-size:smaller;
+				font-size:smaller ! important;
 			}
 			
 				.m2 > .content {
