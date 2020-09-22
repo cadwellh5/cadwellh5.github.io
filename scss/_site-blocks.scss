@@ -21,7 +21,7 @@ $black: #000;
 		min-height: 70px;
 	}
 	.site-logo {
-	margin-bottom: 30px
+		margin-bottom: 30px;
 		@include media-breakpoint-down(md) {
 			margin-right: auto;
 			margin-bottom: 0;
@@ -63,13 +63,13 @@ $black: #000;
 					padding: 4px 10px;
 				}
 				&.active {
-					color: #000000;
+					color: $primary;
 				}
 			}
 
 			&.active {
 				a {
-					color: #000000;
+					color: $primary;
 				}
 			}
 		}
@@ -79,7 +79,7 @@ $black: #000;
 				a {
 					padding: 10px;
 					&:hover {
-						color: #000000;
+						color: $primary;
 					}
 				}
 				&:first-child {
@@ -95,10 +95,9 @@ $black: #000;
 .main-content {
 	float: right;
 	width: calc(100% - 250px);
-	margin-right: 30px;
 	@include media-breakpoint-down(md) {
 		width: 100%;
-		position: absolute;
+		position: relative;
 		float: none;
 	}
 	.container-fluid {
@@ -144,7 +143,7 @@ $black: #000;
 					font-size: 20px;
 				}
 				.heading {
-					font-size: 14px;
+					font-size: 16px;
 					color: $white;
 					margin-bottom: 0;
 					text-transform: uppercase;
@@ -250,7 +249,7 @@ $black: #000;
 		position: absolute;
 		content: "";
 		left: 0; right: 0; bottom: 0; top: 0;
-		background: rgba(0,0,0,.2);
+		background: rgba(0,0,0,.4);
 		z-index: 1;
 	}
 	&, .row {
@@ -263,35 +262,30 @@ $black: #000;
 		font-size: 2.5rem;
 		@include media-breakpoint-up(md) {
 			font-size: 4rem;
+			min-width: 100%;
 		}
 	}
 }
 
 .bg-image {
 	background-size: cover;
-	background-position:left center;
-	background-repeat: repeat;
-
+	background-position: top center;
+	background-repeat: no-repeat;
 }
 
-
-
-
-
 .site-section {
-	padding:  0;
-	
+	padding: 7em 0;
 	&.darken-bg {
-		background: lighten($black, 20%)
+		background: lighten($black, 10%);
 		position: relative;
 		&:before {
 			content: "";
 			position: absolute;
 			left: 0;
 			top: 0;
-			width: 10px;
+			width: 100px;
 			height: 4px;
-			background: #0000;
+			background: $primary;
 		}
 	}
 	.heading {
@@ -299,8 +293,8 @@ $black: #000;
 		font-size: 4rem;
 		margin-bottom: 1em;
 		@include media-breakpoint-down(md) {
-			font-size: 2.5rem;
-		}
+			font-size: 1.4rem;
+			min-width: 100%;		}
 	}
 }
 
