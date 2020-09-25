@@ -254,10 +254,10 @@ jQuery(document).ready(function($) {
 
     });
 
-    // $("#menu li a[href^='#']").on('click', function(e){
-    //   e.preventDefault();
-    //   navToggler.trigger('click');
-    // });
+     $("#menu li a[href^='#']").on('click', function(e){
+       e.preventDefault();
+       navToggler.trigger('click');
+    });
 
     $('body').on('activate.bs.scrollspy', function () {
       // console.log('nice');
